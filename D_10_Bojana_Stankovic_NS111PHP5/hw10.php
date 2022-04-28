@@ -34,6 +34,11 @@ if ($a==0) {
 } else if ($a==6) {
     echo "Danas je nedelja!";
 }
+//zadatak 2, drugi nacin//
+
+$day = array ("ponedeljak", "utorak", "sreda", "cetvrtak", "petak", "subota", "nedelja");
+echo "Danas je ".$day[$a];
+
 
 //zadatak 3 //
 
@@ -43,6 +48,15 @@ $c = 10;
 $d = $a + $b + $c;
 
 echo "Zbir brojeva " . $a . ", " . $b . " " . "i" . " " . $c . " je " .$d;
+
+//zadatak 3, drugi nacin//
+
+$a = rand(0,10);
+$b = rand(0,10);
+$c = rand(0,10);
+$add = $a + $b + $c;
+
+echo "Zbir brojeva je".$add;
 
 
 
