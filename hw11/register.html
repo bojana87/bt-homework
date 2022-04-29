@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+</head>
+<body>
+    <main class="container">
+        <h2>Tabela za polaznike</h2>
+        <p>Molimo vas unesite sledece podatke:</p>
+        <div class="registration">
+            <form method="GET" action="register.php">
+                <fieldset>
+                    <legend>Obrazac za prijavu</legend>
+
+                    <label for="name" class="name">Ime:
+                        <input type="text" id="name" name="name" placeholder="Ime">
+                    </label><br>
+                    
+                    <label for="surname" class="surname">Prezime:
+                        <input type="text" id="surname" name="surname" placeholder="Prezime">
+                    </label><br>
+
+                    <p>Pol:</p>
+
+                    <label>Muski
+                        <input type="radio" name="gender" value="muski">
+                    </label><br>
+                    <label>Zenski
+                        <input type="radio" name="gender" value="zenski">
+                    </label><br>
+
+                    <label for="email">Email:
+                        <input type="email" id="email" name="email" placeholder="email">
+                    </label><br>
+
+                    <label for="password">Sifra:
+                        <input type="password" id="password" name="password" placeholder="sifra">
+                    </label><br>
+
+                    <label for="retype">Ponovljena sifra:
+                        <input type="password" id="retype" name="retype" placeholder="ponovi sifru">
+                    </label><br>
+                    <p>Izaberite kurs:</p>
+                    <label>
+                        HTML
+                        <input type="checkbox" name="courses[]" value="html">                           
+                    </label>
+                    <label>
+                        CSS
+                        <input type="checkbox" name="courses[]" value="css">                           
+                    </label>
+                    <label>
+                        PHP
+                        <input type="checkbox" name="courses[]" value="php">                           
+                    </label><br>
+                    <br>
+                    <button type="submit">Sacuvaj</button>
+                    <br>
+                    <button type="reset">Ponisti</button>
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
+    
+</body>
+</html>
