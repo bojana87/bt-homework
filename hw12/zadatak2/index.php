@@ -14,18 +14,18 @@
             <form method="POST" action="zadatak2.php" target="rezultat">
             <label>Sirina zida (cm):
                 <input type="number" name="sirinazida" placeholder="sirina zida">
-            </label><br>
+            </label></br>
             <label>Visina zida (cm):
                 <input type="number" name="visinazida" placeholder="visina zida">
-            </label><br>
+            </label></br>
             <label>Sirina plocice (cm):
                 <input type="number" name="sirinaplocice" placeholder="sirina plocice">
-            </label><br>
+            </label></br>
             <label>Visina plocice (cm):
                 <input type="number" name="visinaplocice" placeholder="visina plocice">
-            </label><br>
+            </label></br>
             <input type="submit" name="submit" value="izracunaj" id="button"></input>    
-            </form><br>
+            </form></br>
             <iframe name="rezultat"></iframe>
         </div>
     </div>
